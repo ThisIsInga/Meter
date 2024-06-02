@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+meter {
+  width: 400px;
+  height: 100px;
+  animation: fillMeter 5s ease forwards;
+}
+@keyframes fillMeter {
+  from { width: 0%; }
+  to { width: 500px; }
+}
+
+.textJs{
+    color: green;
+    font-size: 50px;
+}
